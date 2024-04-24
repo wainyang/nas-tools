@@ -55,7 +55,7 @@ docker pull jxxghp/nas-tools:latest
 ### 2、本地运行
 python3.10版本，需要预安装cython，如发现缺少依赖包需额外安装
 ```
-git clone -b master https://github.com/jxxghp/nas-tools --recurse-submodule 
+git clone -b master https://github.com/wainyang/nas-tools --recurse-submodule 
 python3 -m pip install -r requirements.txt
 export NASTOOL_CONFIG="/xxx/config/config.yaml"
 nohup python3 run.py & 
